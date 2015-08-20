@@ -1,0 +1,23 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5234
+
+LazyList is a vim plugin who gives you possibility to create ordered and non ordered lists very quickly, and this by adding indices to the beginning of each line in the current selection.
+
+Check this gif:
+https://github.com/KabbAmine/lazyList.vim/raw/master/.img/main.gif
+
+usage
+=====
+The plugin provides one unique command: LazyList, which can be used to add/remove indices to/from a selection in NORMAL or VISUAL mode (This command can take 0 or 1 argument(s): The index).
+
+The index can be:
+
+    - A character or a string (e.g +, '* ','- ', 'Chapter X. '...)
+    - A special pattern understandable by the plugin:
+        %number%: Produces indices starting from number (e.g %1%, %33%...)
+    - Both of them (e.g 'Chapter 1, part %1% - '...)
+
+How to use the plugin, his configuration, all those informations can be found in the official repository:
+https://github.com/KabbAmine/lazyList.vim
+
+
+Don't forget to rate it if you find it useful ( Or useless ;) ). 
