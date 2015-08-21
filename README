@@ -5,6 +5,9 @@ LazyList is a vim plugin who gives you possibility to create ordered and non ord
 Check this gif:
 https://github.com/KabbAmine/lazyList.vim/raw/master/.img/main.gif
 
+With non numerical indices, the plugin can even act smartly:
+https://github.com/KabbAmine/lazyList.vim/raw/master/.img/todo.gif
+
 usage
 =====
 The plugin provides one unique command: LazyList, which can be used to add/remove indices to/from a selection in NORMAL or VISUAL mode (This command can take 0 or 1 argument(s): The index).
