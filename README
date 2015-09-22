@@ -8,7 +8,12 @@ https://github.com/KabbAmine/lazyList.vim/raw/master/.img/main.gif
 With non numerical indices, the plugin can even act smartly:
 https://github.com/KabbAmine/lazyList.vim/raw/master/.img/todo.gif
 
-usage
+As a bonus, the selection algorithm of the plugin can be used as a motion command:
+https://github.com/KabbAmine/lazyList.vim/raw/master/.img/motion.gif
+
+If this plugin is useful (Or useless) for you, please rate it.
+
+USAGE
 =====
 The plugin provides one unique command: LazyList, which can be used to add/remove indices to/from a selection in NORMAL or VISUAL mode (This command can take 0 or 1 argument(s): The index).
 
@@ -19,8 +24,5 @@ The index can be:
         %number%: Produces indices starting from number (e.g %1%, %33%...)
     - Both of them (e.g 'Chapter 1, part %1% - '...)
 
-How to use the plugin, his configuration, all those informations can be found in the official repository:
+You will find all informations in the official repository:
 https://github.com/KabbAmine/lazyList.vim
-
-
-Don't forget to rate it if you find it useful ( Or useless ;) ). 
